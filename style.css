@@ -104,3 +104,31 @@ footer {
   padding: 1rem;
   font-size: 0.9rem;
 }
+.dark-mode {
+  background-color: #121212;
+  color: #f2f2f2;
+}
+
+.dark-mode nav,
+.dark-mode .project-card,
+.dark-mode footer {
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+.dark-mode a {
+  color: #90caf9;
+}
+.floating-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #1e88e5;
+  color: white;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
